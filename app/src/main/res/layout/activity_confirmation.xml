@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XÁC NHẬN ĐẶT VÉ"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#E91E63"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/tvConfMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Phim: "
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvConfTheater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rạp: "
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvConfTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Suất chiếu: "
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvConfSeats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ghế: "
+        android:layout_marginBottom="24dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DDDDDD"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tvConfTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TỔNG TIỀN: 0 VNĐ"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:gravity="end"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnFinalConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THANH TOÁN &amp; ĐẶT VÉ"
+        android:backgroundTint="#E91E63"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
